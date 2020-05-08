@@ -13,11 +13,11 @@ Download and unzip the latest stable [Apche Spark](https://www.apache.org/dyn/cl
 
 `conda activate spark`
 
-## Run a simple Spark job locally:
+## Run a simple Spark job locally (word count):
 
 `spark-submit src/words.py`
 
-## Run Twitter Spark job locally:
+## Run Twitter Spark job locally (device count):
 
 `spark-submit src/process_tweets.py`
 
